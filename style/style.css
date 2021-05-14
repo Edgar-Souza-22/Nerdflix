@@ -1,0 +1,100 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 20px;
+    color: var(--vermelho);
+    font-family: Calibri;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+/*principal*/
+.principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/pathfinder-2.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: "trebuchet ms";
+}
+
+.botao {
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: whit;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.principal .container {
+    width: 50%;
+}
+
+.box-filme {
+    height: 310px;
+    width: 75px;
+    display: block;
+}
+
+.carrossel-rpg {
+    margin-top: 5px;
+}
